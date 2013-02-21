@@ -1,0 +1,9 @@
+strict digraph  {
+	a -> c	 [Connection=Triggered];
+	c -> e	 [Connection=Triggered];
+	c -> d	 [Connection=Triggered];
+	c -> f	 [Connection=Potential];
+	b -> a	 [Connection=Potential];
+	e -> b	 [Connection=Potential];
+	d -> a	 [Connection=Potential];
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="Connection" attr.type="string" for="edge" id="d0" />
+  <graph edgedefault="directed">
+    <node id="a" />
+    <node id="c" />
+    <node id="b" />
+    <node id="e" />
+    <node id="d" />
+    <node id="f" />
+    <edge source="a" target="c">
+      <data key="d0">Triggered</data>
+    </edge>
+    <edge source="c" target="e">
+      <data key="d0">Triggered</data>
+    </edge>
+    <edge source="c" target="d">
+      <data key="d0">Triggered</data>
+    </edge>
+    <edge source="c" target="f">
+      <data key="d0">Potential</data>
+    </edge>
+    <edge source="b" target="a">
+      <data key="d0">Potential</data>
+    </edge>
+    <edge source="e" target="b">
+      <data key="d0">Potential</data>
+    </edge>
+    <edge source="d" target="a">
+      <data key="d0">Potential</data>
+    </edge>
+  </graph>
+</graphml>
